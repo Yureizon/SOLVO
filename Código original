@@ -1,0 +1,32 @@
+const namelist=[
+    {
+        name: "Violet",
+        lastname: "Cannon"
+    },
+    {
+        name: "Nancy",
+        lastname: "Rice"
+    },
+    {
+        name: "Mcneil",
+        lastname: "Mcgee"
+    },
+    {
+        name: "Greta",
+        lastname: "Mccall"
+    },
+    {
+        name: "Loretta",
+        lastname: "Dotson"
+    }
+    ];
+    
+const fullname=[];
+const size = namelist.length;
+
+for (let i = 0; i<size; i++){
+    let element = '${nameList[i].name} ${nameList[i].lastname}'; 
+    fullname.push(element);
+}
+
+console.log(fullname);
